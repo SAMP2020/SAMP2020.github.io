@@ -55,5 +55,435 @@
 						<a  href="#gallery">Gallery</a>
 						<a  href="#contact">Contact</a>
 
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					  <i class="fa fa-bars"></i>
+					</a>
+				  </div>
+				  
+			
+				  
+				  <script>
+				  function myFunction() {
+					var x = document.getElementById("myTopnav");
+					if (x.className === "topnav") {
+					  x.className += " responsive";
+					} else {
+					  x.className = "topnav";
+					}
+				  }
+				  </script>
+
+	    <hr>
+    </div>
+    
+    <div class="content">
+	<div class="row">
+		<div class="col-md-12">
+			<section class="jumbotron" id="home">
+				<center>
+				<!-- <h5>NATIONAL WORKSHOP ON</h5>
+				<h3>
+					HIGH PERFORMANCE COMPUTING AND APPLICATIONS (HPCA 2019)
+				</h3>
+				<br>
+				August 12 - 17, 2019
+				<br><br>
+				Organized as part of NITK Diamond Jubilee Celebrations (2019-20) by
+				<br>
+				<address>
+					<a href="http://infotech.nitk.ac.in/" target="_blank">Department of Information Technology</a><br>
+					Western Campus, NIT Karnataka,<br>
+					Surathkal, Srinivasnagar Post,<br>
+					Mangalore – 575 025
+				</address> -->
+				<h3>Thanks to all participants for making HPCA 2019 a success!</h3>
+				<br>
+				<h4>Workshop resources are still accessible. Scroll Down to see Press Coverage.
+				<br>Click on Gallery to view Highlight Pictures.</h4>
+				<p>
+					<!-- <div class="row"> -->
+						<!-- <div class="col-md-3"> -->
+							<a class="btn btn-primary btn-large" href="https://drive.google.com/drive/folders/183vVa6fb9tSTJcg0CDXHplyFfAknFw31?usp=sharing" target="_blank">Workshop Resources</a>
+						<!-- </div> -->
+						<!-- <div class="col-md-3"> -->
+							<a class="btn btn-primary btn-large" href="#gallery" target="_blank">Gallery</a>
+						<!-- </div> -->
+					<!-- </div> -->
+					
+					<a href=""></a>
+				</p>
+				<br>
+				<h3>Press Coverage</h3>
+				<br>
+				<div class="row">
+				  <div class="col-md-6">
+				    <div class="img-thumbnail  img-responsive">
+				      <a href="./img/press/img1.jpeg" target="_blank">
+				        <img class="customimg" src="./img/press/img1.jpeg" alt="img1" >
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/press/img2.jpeg" target="_blank">
+				        <img class="customimg" src="./img/press/img2.jpeg" alt="img2" >
+				      </a>
+				    </div>
+				  </div>
+				</div>
+				<br>
+				<div class="row">
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/press/img3.jpeg" target="_blank">
+				        <img class="customimg" src="./img/press/img3.jpeg" alt="img3" >
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/press/img4.jpeg" target="_blank">
+				        <img class="customimg" src="./img/press/img4.jpeg" alt="img4">
+				      </a>
+				    </div>
+				  </div>
+				</div>
+				</center>
+				<br>
+				<p>
+					<h4>ABOUT THE WORKSHOP</h4>
+					High Performance Computing (HPC) is a domain that encompasses the use of super computers and parallel processing for solving complex computational problems efficiently, reliably and quickly. HPC systems have the ability to deliver sustained performance through the concurrent use of computing resources. Applications typically require parallelizable task identification and parallelization level, i.e., task level or data level parallelism. HPC has applications in diverse fields like healthcare/personalized medicine, modeling and simulation, Security, Fintech and Engineering, Predictive Analytics, Affective Computing, Computer networks, Internet of Things etc.
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large" href="./files/brochure.pdf" target="_blank">View Brochure</a>
+				</p>
+			
+				
+			
+			</section>
+			<button class="btn btn-primary" onclick="topFunction()" id="topbutton" title="Go to top">Top</button>
+        	<script>
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("topbutton").style.display = "block";
+                  } else {
+                    document.getElementById("topbutton").style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  // document.body.scrollTop = 0;
+                  // document.documentElement.scrollTop = 0;
+                  $('html,body').animate({ scrollTop: 0 }, 'slow');
+                }
+            </script>
+			<section class="jumbotron" id="topics">
+				<h4>Topics that will be covered durin the workshop:</h4>
+				<br>
+				<ul>
+					<li>Fundamental concepts of HPC</li>
+					<li>Architecture Evolution for HPC</li>
+					<li>Shared Memory Parallelism with OpenMP</li>
+					<li>Distributed Memory Parallelism with MPI</li>
+					<li>GPGPU Computing with CUDA</li>
+					<li>Practical sessions on OpenMP, MPI & CUDA</li>
+					<li>HPC Applications in various domains</li>
+					<li>HPC applications in Industryby Industry experts.</li>
+					<li>Emerging research trends in HPC and related areas.</li>
+				</ul>
+			</section>
+
+			<section style="height: 10%" class="jumbotron" id="eligibility">
+				<h4>Eligibility and Selection</h4>
+				<br>
+				<p>The workshop is open to interested UG/PG Students, Research Scholars, Faculty Members of all Engineering colleges in India.</p>
+				<p><b>NOTE:</b></p>
+				<ul>
+					<li>Totalparticipants will be limited to 50.</li>
+					<br>
+					<li>Limited accommodation available, on prior request. The expenses have to borne byparticipants.</li>
+				</ul>
+			</section>
+
+			<section class="jumbotron" id="registration">
+				<h4>Registration</h4>
+				<br>
+				<p>Interested participants are requested to send the signed registration form in the format given (scanned) in the <a href="./files/brochure.pdf" target="_blank">brochure</a>, duly forwarded by the competent authority with Registration Fee paid details on or before 31st July 2019 by Email.</p>
+				
+				<p>Please fill this <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdNMXMgngk-CKU7ycw4yHkBdsVegLnNIIWA4r8-7kYoSPQ_gg/viewform">Google Form</a> as well.</p>
+
+				<p>Details for payment are as follows:</p>
+				Registration Fees : Rs. 3540/- (3000 + 18% GST)<br>
+				Account Name : Director, NITK<br>
+				Account Number : 10175365060<br>
+				Bank : State Bank of India<br>
+				IFSC Code : SBIN0002273<br>
+				MICR Code : 575002013<br>
+				Branch Code : 2273<br>
+				Remarks : HPCA 2019, IT Dept
+			</section>
+
+			<section style="height: 10%" class="jumbotron" id="dates">
+				<h4>Important Dates</h4>
+				<br>
+				Last date for receipt of applications: July 31, 2019<br>
+				Intimation of selection by email: August 1, 2019<br>
+				Workshop Dates: August 12 - 17, 2019
+			</section>
+
+			<section class="jumbotron" id="venue">
+				<h4>Venue</h4>
+				Seminar Hall, 5th Floor,<br>
+				Department of Information Technology,<br>
+				Western Campus,<br>
+				NIT Karnataka, Surathkal, P.O. Srinivasnagar,<br>
+				Mangalore-575 025
+				<br><br>
+				<h5>About NITK</h5>
+				<p>NITK Surathkal is a premier institution engaged in imparting quality technological education and a broad range of research, development and consultancy activities. NITK has carved a niche for itself among the best technical institutes in India and is consistently ranked among the top 10 technological institutes. NITK is located on the scenic shores of the Arabian Sea, about 20KM north of Mangalore and is well connected by Air, Rail and Road. The nearest domestic/international airport is in Bajpe (about 10KM from Mangalore) and the nearest railway station is Surathkal (3KM).</p>
+				<br><br>
+				<h5>Department of Information Technology</h5>
+
+				<p>Established in year 2000, the Department of Information Technology has grown into a center for excellence, innovation and high-quality research, with dedicated faculty & staff, highly motivated students, state-of-the-art facilities and an innovative teaching-learning environment. The department was accredited by National Board of Accreditation (NBA) for 5 years w.e.f. July 1st, 2014 and extended for 3 years in June 2019. IT students have consistently achieved 100% placements year after year and have demonstrated a high level of success at pursuing post-graduate and doctoral studies at leading universities world-wide.</p>
+			</section>
+
+			<section style="height: 10%" class="jumbotron" id="schedule">
+				<h4>Workshop Schedule</h4>
+				<br>
+				<p><a href="./files/schedule.pdf" target="_blank">Click here</a> for detailed schedule, along with speakers' names, for the event.</p>
+				<br><br>
+				<p><h4>MoU Signing and HPC Lab Inauguration on 17th August 2019.</h4><a href="http://infotech.nitk.ac.in/sites/default/files/Invitation_HPCA_Aug17%20program.pdf" target="_blank">Click here for detailed schedule.</a></p>
+			</section>
+
+<!-- 			<section style="height: 10%" class="jumbotron" id="speakers">
+				<h4>Speakers</h4>
+				<br>
+				<p>To be updated soon.</p>
+			</section> -->
+
+			<section class="jumbotron" id="team">
+				<h4>Workshop Coordinators</h4>
+				<br>
+				<p><a href="http://infotech.nitk.ac.in/faculty/sowmya-kamath-s" target="_blank">Dr. Sowmya Kamath S.</a>, Dept. of Information Technology, NIT Karnataka</p>
+				<p><a href="http://infotech.nitk.ac.in/faculty/geetha-v" target="_blank">Dr. Geetha V.</a>, Dept. of Information Technology, NIT Karnataka</p>
+				<br><br>
+				<h4>Technical/Volunteer Team</h4>
+				<br>
+				<p><a href="https://gsk1692.github.io/" target="_blank">Gokul S Krishnan</a></p>
+				<p><a href="http://infotech.nitk.ac.in/research-scholars/archana-bhat" target="_blank">Archana Bhat</a></p>
+				<p><a href="http://infotech.nitk.ac.in/research-scholars/karthik-k" target="_blank">Karthik K</a></p>
+				<p><a href="http://infotech.nitk.ac.in/research-scholars/salvi-sanket-sarang" target="_blank">Sanket Salvi</a></p>
+				<p><a href="http://infotech.nitk.ac.in/research-scholars/veena-mayya" target="_blank">Veena Mayya</a></p>
+				<p><a href="http://infotech.nitk.ac.in/research-scholars/ranjit-p-kolkar" target="_blank">Ranjit P Kolkar</a></p>
+			</section>
+
+			<section class="jumbotron" id="gallery">
+				<h4>Gallery</h4>
+				<br>
+				<div class="row">
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img1.jpg" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img1.jpg" alt="img1" >
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img2.jpg" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img2.jpg" alt="img2" >
+				      </a>
+				    </div>
+				  </div>
+				</div>
+				<br>
+				<div class="row">
+				  <div class="col-md-6">
+				    <div class="img-thumbnail">
+				      <a href="./img/gallery/img3.jpg" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img3.jpg" alt="img3" >
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img4.jpeg" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img4.jpeg" alt="img4" >
+				      </a>
+				    </div>
+				  </div>
+				</div>
+				<br>
+				<div class="row">
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img5.jpeg" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img5.jpeg" alt="img5" >
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img6.jpeg" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img6.jpeg" alt="img6" >
+				      </a>
+				    </div>
+				  </div>
+				</div>
+				<br>
+				<div class="row">
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img7.jpeg" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img7.jpeg" alt="img7" >
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img8.jpeg" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img8.jpeg" alt="img8" >
+				      </a>
+				    </div>
+				  </div>
+				</div>
+				<br>
+				<div class="row">
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img9.jpeg" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img9.jpeg" alt="img9" >
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img10.JPG" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img10.JPG" alt="img10"JPG >
+				      </a>
+				    </div>
+				  </div>
+				</div>
+				<br>
+				<div class="row">
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img11.JPG" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img11.JPG" alt="img11" >
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img12.JPG" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img12.JPG" alt="img12" >
+				      </a>
+				    </div>
+				  </div>
+				</div>
+				<br>
+				<div class="row">
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img13.JPG" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img13.JPG" alt="img13" >
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img14.JPG" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img14.JPG" alt="img14" >
+				      </a>
+				    </div>
+				  </div>
+				</div>
+				<br>
+				<div class="row">
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img15.JPG" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img15.JPG" alt="img15" >
+				      </a>
+				    </div>
+				  </div>
+				  <div class="col-md-6">
+				    <div class="img-thumbnail img-responsive">
+				      <a href="./img/gallery/img16.JPG" target="_blank">
+				        <img class="customgallery" src="./img/gallery/img16.JPG" alt="img16" >
+				      </a>
+				    </div>
+				  </div>
+				</div>
+			</section>
+
+			<section class="jumbotron" id="contact">
+				<h4>Address for Communication</h4>
+				<br>
+				<address>
+					Program Coordinators<br>
+					National Workshop on HPCA 2019,<br>
+					<a href="http://infotech.nitk.ac.in" target="_blank"></a>Dept. of Information Technology,<br>
+					Western Campus, <a href="http://nitk.ac.in" target="_blank">NIT Karnataka, Surathkal</a>,<br>
+					Srinivasnagar PO,<br>
+					Mangalore- 575025.<br>
+					E-mail: <a href="mailto:ITdept_workshops@nitk.edu.in"></a>ITdept_workshops@nitk.edu.in<br>
+					Contact Ph: 0824 – 247 3557(Off), 0824 – 247 3554 (Off)
+				</address>
+			</section>
+		</div>
+	</div>
+	</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			$(document).on("scroll", onScroll);
+			$('a[href^="#"]').on('click', function (e) {
+				e.preventDefault();
+				$(document).off("scroll");
+	 
+				$('a').each(function () {
+					$(this).removeClass('active');
+				})
+				$(this).addClass('active');
+	 
+				var target = this.hash;
+				$('html, body').stop().animate({
+					'scrollTop': $(target).offset().top - $('#header').height()
+				}, 500, 'swing', function () {
+					// window.location.hash = target;
+					window.scrollTo(0, $(target).offset().top - $('#header').height());
+					$(document).on("scroll", onScroll);
+				});
+			});
+		});
+	 
+		function onScroll(event){
+			var scrollPosition = $(document).scrollTop();
+			$('div ul li a').each(function () {
+				var currentLink = $(this);
+				var refElement = $(currentLink.attr("href"));
+				if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+					// console.log('height: '+refElement.height());
+					$('div ul li a').removeClass("active");
+					currentLink.addClass("active");
+				}
+				else{
+					currentLink.removeClass("active");
+				}
+			});
+		}
+	</script>
   </body>
 </html>
